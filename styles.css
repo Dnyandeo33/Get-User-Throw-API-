@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    font-family: inherit;
+    max-width: 70%;
+    margin: auto;
+
+}
+
+header {
+    color: yellowgreen;
+    background: rgb(234, 233, 233);
+}
+
+.heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    padding-top: 3rem
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    padding: 5px 8px;
+    margin: 15px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: gray;
+}
+
+.btn:hover {
+    color: black;
+}
+
+.btn i {
+    padding-right: 5px;
+    color: yellowgreen;
+}
+
+.user-input {
+    margin: 15px;
+    padding-left: 10px;
+}
+
+.output {
+    height: auto;
+    background: white;
+    margin: .5rem auto 1.5rem auto;
+}
+
+table {
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 2px;
+    padding: 10px;
+    color: gray;
+    text-align: center;
+}
+
+table,
+th {
+    color: black;
+    
+}
+
+
+.user-not-found{
+    text-align: center;
+    color: black;
+    background: rgb(249, 202, 202);
+    margin-top: .3rem;
+}
+
+.user-not-found p {
+    padding: 50px;
+}
