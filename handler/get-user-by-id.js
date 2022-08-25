@@ -5,7 +5,7 @@ export function getUserById(id) {
     const user = fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
         .then(res => {
             if(!res.ok) {
-                throw Error('Please enter a valid user ID')
+                throw Error(`User ID ${id} does not exist.`)
             }
             return res.json();
         }).then((data) => outputUser(data))

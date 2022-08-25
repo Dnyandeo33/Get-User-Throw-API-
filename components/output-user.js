@@ -1,7 +1,6 @@
 import { OUTPUT } from "../data/constant.js";
 
 export function outputUser(data) {
-    debugger;
     let output = document.getElementById(OUTPUT);
     while (output.firstChild) {
         output.firstChild.remove();
