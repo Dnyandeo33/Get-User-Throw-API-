@@ -7,7 +7,9 @@ export const userInputId = () => {
         const userInput = document.getElementById(USER_INPUT).value;   
         if(userInput === "") {
             alert("Please enter user ID");
-        }else if (isNaN(userInput) || userInput == 0) {
+        }else if(userInput == 0){
+            alert("Value must be grater than zero");
+        }else if (isNaN(userInput)) {
             alert("Please enter valid user ID");
         }
         else {
